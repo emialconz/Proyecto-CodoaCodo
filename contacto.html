@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacto</title>
+    <link rel="stylesheet" href="estilos/styles.css">
+    <link href="https://fonts.googleapis.com/css?family=IBM+Plex+Sans&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/3be38b6456.js" crossorigin="anonymous"></script>
+    <link rel="icon" href="./img/logo.ico">
+</head>
+<body>
+    <header class="header">
+        <a href="index.html"><img class="logo" src="./img/logo.svg" alt=""></a>
+        <nav>
+            <input class="menu-btn" type="checkbox" id="menu-btn" />
+            <label class="menu-icon" for="menu-btn"><span class="nav-icon"></span></label>
+            <ul class="menu">
+                <li><a href="episodios.html">EPISODIOS</a></li>
+                <li><a href="nosotros.html">NOSOTROS</a></li>
+                <li><a href="galerias.html">ENTREVISTAS</a></li>
+                <li><a href="temario.html">TÓPICOS</a></li>
+                <li><a href="contacto.html">CONTACTO</a></li>
+            </ul>
+        </nav>
+    </header>
+        <div class="contact-form">
+            <form class="form" method="post" action="#">
+                <div class="data">
+                    <div class="form-header">
+                        <h1 class="form-title">Contacto</h1>
+                    </div>
+                        <label for="nombre" class="form-label">Nombre:</label>
+                        <input type="text" name="name" id="name" required="required" class="form" placeholder="Nombre" />
+                        
+                        <label for="email" class="form-label">Email:</label>
+                        <input type="email" name="mail" id="mail" required="required" class="form" placeholder="Email" />
+                        
+                        <label for="asunto" class="form-label">Asunto:</label>
+                        <input type="text" name="subject" id="subject" required="required" class="form" placeholder="Asunto" />
+                    
+                        <label for="mensaje" class="form-label">Mensaje:</label>
+                        <textarea name="message" id="message" class="form textarea" placeholder="Escriba aquí el mensaje"></textarea>
+                </div>
+                <a href="contacto.html" class="form-btn">ENVIAR MENSAJE</a>
+            </form>
+        </div>
+    <footer class="footer">
+        <div class="cajon">
+            <div class="copy">&copy; 2019- Hello blue pale dot</div>
+            <div class="foot">
+                <a class="fab fa-spotify" href="https://www.spotify.com/ar/"></a>
+                <a class="fab fa-instagram" href="https://www.instagram.com/?hl=es-la"></a>
+                <a class="fab fa-twitter" href="https://twitter.com/home"></a>
+                <a class="fab fa-facebook" href="https://www.facebook.com/"></a>
+                <a class="fab fa-telegram" href="https://web.telegram.org/#/login"></a>
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>
